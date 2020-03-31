@@ -1,0 +1,5 @@
+{
+    "UCSHOST": "http://localhost:8011",
+    "UCSLOAD": "/api/SMIB/TransferFromWallet/{assetNumber}/{playerAccountID}",
+    "UCSUNLOAD": "/api/SMIB/TransferFromETG/{assetNumber}/{playerAccountID}"
+}

@@ -1,0 +1,10 @@
+{
+    "SBHOST": "10.140.247.49:50051",
+    "UCSHOST": "http://localhost:8011",
+    "UCSBALANCE": "/api/SMIB/Transaction/{playerAccountID}/{transactionID}",
+    "UCSLOAD": "/api/SMIB/TransferFromWallet/{assetNumber}/{playerAccountID}",
+    "UCSUNLOAD": "/api/SMIB/TransferFromETG/{assetNumber}/{playerAccountID}",
+    "SBASSETIDENTIFIER": "1",
+    "UCSASSETIDENTIFIER": "2"
+
+}

@@ -1,0 +1,6 @@
+{
+    "ActivePort": "COM4",
+    "PassivePort": "COM3",
+    "JXURL": "http://10.140.247.48:8000/jx4/v4/egm/jackpots/create",
+    "JXCallbackURL": "http://10.140.247.49:9000/jxupdate"
+}

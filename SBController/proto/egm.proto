@@ -1,0 +1,28 @@
+syntax = "proto3";
+package proto;
+
+message TransferFunds {
+    uint64 cashableMoneyInCents = 1;
+    uint64 restrictedMoneyInCents = 2;
+    uint64 nonRestrictedMoneyInCents = 3;
+}
+
+message CommonResponse {
+    string response = 1;
+}
+
+message JXRequest {
+    string dispenseType = 1;
+    uint64 amount = 2;
+}
+
+message Empty {}
+
+
+service Fund {
+    rpc DisableEGM (Empty) returns (CommonResponse);
+    rpc EnableEGM (Empty) returns (CommonResponse);
+    rpc Load(TransferFunds) returns (CommonResponse);
+    rpc UnLoad(Empty) returns (CommonResponse);
+    rpc UpdateJx(JXRequest) returns (CommonResponse);
+}
