@@ -21,7 +21,7 @@
     "@types/request": "^2.48.2",
     "@types/validator": "^10.11.3",
     "bluebird": "^3.5.5",
-    "fs-path": "0.0.24",
+    "fs-path": "0.0.25",
     "install": "^0.13.0",
     "jasmine": "^3.4.0",
     "koa": "^2.8.1",
